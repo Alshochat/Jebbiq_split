@@ -13,10 +13,7 @@
         "nkro": true,
         "encoder": true
     },
-    "matrix_pins": {
-        "cols": ["GP8", "GP9", "GP10", "GP11", "GP7","GP8","GP9","GP6","GP5", "GP10", "GP11","GP12","GP13","GP14","GP15","GP4","GP3","GP2"],
-        "rows": ["GP2", "GP3", "GP4", "GP5", "GP6", "GP7", "GP21", "GP20", "GP19", "GP18", "GP17", "GP16"]
-    },
+
     "processor": "RP2040",
     "usb": {
         "device_version": "1.0.0",
@@ -33,8 +30,8 @@
         "animations": {
             "rainbow_swirl": true
         }
-    },
-
+    },     
+    
     "encoder": {
         "rotary": [
             { "pin_a": "GP21", "pin_b": "GP20" },
